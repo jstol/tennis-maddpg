@@ -65,7 +65,7 @@ future). Both the actor and critic networks use the Adam optimizer.
 |**Weight Decay**|0.0|The strength of L2 regularization to use when training any network.|
 
 ## Plot of Rewards
-Below is a plot of the rewards earned by the agent during training (within a sliding window of 100 episodes).
+Below is a plot of the rewards earned by the agents during training (within a sliding window of 100 episodes).
 ![A plot of the average rewards during training](images/reward_plot.png)
 
 The environment was solved after 2109 episodes (as the goal of an average reward of +0.5 is reached).
