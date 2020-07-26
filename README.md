@@ -18,7 +18,7 @@ both collaboration and competition is required to solve the environment. This pr
 
 ## Observation Space
 24 real-valued variables describing the position and velocity of the ball and raquet. Each agent has its own local
-observation at each timestep. 
+observation at each timestep.
 
 ## Action Space
 A float vector of size 2. One entry controls horizontal movement, while the other controls vertical movement. (Every
@@ -29,9 +29,9 @@ Each agent receives a reward of +0.1 for hitting the ball over the net, and -0.0
 agent's side or if the agent hits the ball out-of-bounds.
 
 ## Solved
-The environment is considered solved when the agent can receive an average reward of +0.5 or more, over a window of 100
-episodes. (Note: the reawrd per agent is summed over each episode, and the max of this value is taken as the episode
-score).
+The environment is considered solved when one of the agents can receive an average reward of +0.5 or more, over a window
+of 100 episodes. (Note: the reward per agent is summed over each episode, and the max of this value is taken as the
+episode score.)
 
 ## Setup
 ### Code Setup
