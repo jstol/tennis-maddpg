@@ -4,7 +4,7 @@ Random agents              |  Trained agents
 :-------------------------:|:-------------------------:
 ![trained agent](images/random.gif) | ![random agent](images/trained.gif)
 
-*Examples of a random agent and an agent trained to position its arm within the (green) target region.*
+*Examples of random agents and agents trained to hit the ball over the net.*
 
 > *Note*: The code in this repo is based on my original implementation of DDPG, which can be found [here](https://github.com/jstol/reacher-ddpg).
 
