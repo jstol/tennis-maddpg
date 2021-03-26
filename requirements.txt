@@ -1,7 +1,7 @@
 click==7.1.2
 # Below is adapted from https://github.com/udacity/deep-reinforcement-learning/blob/55474449a112fa72323f484c4b7a498c8dc84be1/python/requirements.txt
 Pillow>=4.2.1
-PyYAML==5.3.1
+PyYAML==5.4
 docopt==0.6.2
 grpcio==1.11.0
 ipykernel==5.2.0
